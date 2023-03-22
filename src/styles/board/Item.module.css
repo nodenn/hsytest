@@ -7,6 +7,8 @@
   margin: 0 30px 24px 0;
   float: left;
   box-sizing: border-box;
+  text-decoration: none;
+  color: #000;
 }
 
 .itemWrapper:nth-of-type(3) {
@@ -17,10 +19,19 @@
   width: 300px;
   height: 150px;
   object-fit: cover;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s;
+}
+
+.itemWrapper:hover > img {
+  width: 330px;
+  transition: 0.3s;
 }
 
 .itemContent {
-  padding: 15px 10px;
+  padding: 12px 13px;
 }
 
 .itemContent h3 {

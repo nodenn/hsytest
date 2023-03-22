@@ -1,0 +1,45 @@
+.eventContt img {
+  border: 0;
+  display: inline;
+  vertical-align: top;
+  width: 100%;
+}
+.roulette {
+  position: absolute;
+  width: 749px;
+  height: 748px;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0;
+  background-size: 100%;
+}
+.roulette:after {
+  display: none;
+}
+.img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.pin {
+  position: absolute;
+  left: 50%;
+  top: 21px;
+  transform: translateX(-50%);
+  background-size: contain;
+}
+.rouletteBtn {
+  position: absolute;
+  bottom: 69px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.btn_entry {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -5,9 +5,9 @@ import Link from "next/link";
 import { itemWrapper, itemContent } from "@/styles/board/Item.module.css";
 
 const Item = ({ item }) => {
-  const { image, title, summary } = item;
+  const { seq, title, image, summary } = item;
   return (
-    <Link href="/" className={itemWrapper}>
+    <Link href={`/board/detail/${item.seq}`} className={itemWrapper}>
       <ImageDefault src={image} width={300} height={150} alt={title} />
       <div className={itemContent}>
         <h3>{title}</h3>
