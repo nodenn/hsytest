@@ -20,7 +20,7 @@ export const useGetList = () => {
       {
         seq: 3,
         title: "제목3",
-        image: "/FQEVvcaagAIUzP5.jpg",
+        image: "/img/FQEVvcaagAIUzP5.jpg",
         summary:
           "어쩌구저쩌구어쩌구저쩌구어쩌구저쩌구어쩌구저쩌구어쩌구저쩌구어쩌구저쩌구어쩌구저쩌구어쩌구저쩌구",
       },
